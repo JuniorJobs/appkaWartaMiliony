@@ -20,14 +20,15 @@ public class LoginScreen extends AppCompatActivity implements View.OnClickListen
 
     }
    private void initOnClickListeners(){
+
        findViewById(R.id.login_button).setOnClickListener(this);
    }
 
     @Override
     public void onClick(View view) {
-
+        Toast.makeText(this, "Click", Toast.LENGTH_SHORT).show();
         int viewId= view.getId();
-        if(viewId == R.id.login_button){
+        if(viewId == (R.id.login_button)){
             EditText loginEditText  = (EditText) findViewById(R.id.login_edittext);
             String login = loginEditText.getText().toString();
 
