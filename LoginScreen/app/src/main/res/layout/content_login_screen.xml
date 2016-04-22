@@ -15,12 +15,13 @@
     tools:showIn="@layout/activity_login_screen"
     >
 
+
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:textAlignment="center"
-        android:textStyle="italic"
         android:hint="Login"
         android:id="@+id/login_edittext"/>
 
@@ -29,7 +30,6 @@
         android:layout_height="wrap_content"
         android:textSize="30sp"
         android:textAlignment="center"
-        android:textStyle="italic"
         android:inputType="textPassword"
         android:hint="Password"
         android:id="@+id/password_edittext"/>
@@ -37,7 +37,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="30sp"
-        android:background="#cfdeff"
+        android:background="@drawable/button1"
         android:text="Log in"
         android:id="@+id/login_button"
         android:layout_gravity="center" />
